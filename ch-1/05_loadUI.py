@@ -7,6 +7,7 @@ class UI(QWidget):
     def __init__(self):
         super().__init__()
 
+        # 不需要将.ui文件转换成.py再运行，可以通过loadUi直接运行
         uic.loadUi('./windowUI.ui', self)
 
 
